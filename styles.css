@@ -1,0 +1,156 @@
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+}
+
+h2 {
+font-family: 'Slabo 27px', serif;
+font-size: 2.5em;
+}
+
+h3 {
+  font-family: 'Hina Mincho', serif;
+  font-size: 2em;
+}
+
+p, li, td {
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.3em;
+}
+
+body {
+background-color: #E4FBFF;
+}
+
+#about {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.corona-img, .blackfungus-img {
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  float: left;
+}
+
+.virus-img, .vacc-img {
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  float: right;
+}
+
+#main {
+  padding-bottom: 3% ;
+  text-align: center;
+  width: 100%;
+}
+
+
+.title {
+  font-size: 5em;
+  font-family: 'Libre Baskerville', serif;
+  padding-top: 12%;
+  color: #142850;
+}
+
+.subtitle {
+  font-family: 'Lora', serif;
+  font-size: 2em;
+  padding-bottom: 10%;
+  color: #142850;
+}
+
+.navbar {
+  padding-top: 2%;
+  margin-left: -17%;
+  width: 100%;
+  position: absolute;
+  font-weight: bold;
+}
+
+.black-fungus {
+  margin-right: 20%;
+  margin-left: 20%;
+  font-size: 1.1rem;
+}
+#carouselExampleIndicators {
+  width: 100%;
+}
+
+.carousel-item {
+  padding: 10%;
+  padding-bottom: 2%;
+}
+
+.carousel-inner {
+  background-color: #C2F0FC;
+
+}
+
+.myth1, .fact1 {
+  width: 50%;
+  text-align: center;
+}
+
+.myth, .fact {
+  width: 50%;
+  text-align: center;
+}
+
+.nasal-img, .cow-img, .sun-img {
+  border-radius: 100%;
+  width: 17em;
+  height: 12em;
+  display: block;
+  margin: -4em auto 2em auto;
+}
+
+#symptoms-precautions {
+  text-align: center;
+}
+
+.symptoms, .precautions {
+  margin-right: 3%;
+  font-style: italic;
+}
+
+#vaccination {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#conclusion {
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+#links {
+  padding: 7% 25%;
+  text-align: center;
+  background-color: #D7E9F7;
+}
+
+.link {
+  margin-right: 2%;
+}
+
+@media (max-width: 500px) {
+  .co-test-img {
+    width: 200px;
+  }
+  .mask-img {
+    width: 200px;
+  }
+}
